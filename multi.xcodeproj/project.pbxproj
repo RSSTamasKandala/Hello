@@ -24,6 +24,7 @@
 		7A94AE2C18409E6500AE9087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A94AE0418409E6400AE9087 /* Foundation.framework */; };
 		7A94AE3418409E6500AE9087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A94AE3218409E6500AE9087 /* InfoPlist.strings */; };
 		7A94AE3718409E6500AE9087 /* multiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A94AE3618409E6500AE9087 /* multiTests.m */; };
+		7A94AE4218409EB400AE9087 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A94AE4118409EB400AE9087 /* Worker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		7A94AE3318409E6500AE9087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A94AE3518409E6500AE9087 /* multiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiTests.h; sourceTree = "<group>"; };
 		7A94AE3618409E6500AE9087 /* multiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiTests.m; sourceTree = "<group>"; };
+		7A94AE4018409EB400AE9087 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		7A94AE4118409EB400AE9087 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 		7A94AE0818409E6400AE9087 /* multi */ = {
 			isa = PBXGroup;
 			children = (
+				7A94AE4018409EB400AE9087 /* Worker.h */,
+				7A94AE4118409EB400AE9087 /* Worker.m */,
 				7A94AE1118409E6400AE9087 /* AppDelegate.h */,
 				7A94AE1218409E6400AE9087 /* AppDelegate.m */,
 				7A94AE1A18409E6400AE9087 /* MainStoryboard_iPhone.storyboard */,
@@ -277,6 +282,7 @@
 				7A94AE0F18409E6400AE9087 /* main.m in Sources */,
 				7A94AE1318409E6400AE9087 /* AppDelegate.m in Sources */,
 				7A94AE2218409E6400AE9087 /* ViewController.m in Sources */,
+				7A94AE4218409EB400AE9087 /* Worker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

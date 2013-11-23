@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Worker * W = [[Worker alloc]init];
+    
+    [W ADdObjectTrueArray:[NSNumber numberWithInt:0]];
 }
 
 - (void)didReceiveMemoryWarning
